@@ -1,6 +1,7 @@
-$(document).ready(function(){
-  $("#Button").click(function(){
-      $("img").slideDown("slow");
-      $("p").css("color","blue");
-    });
- });
+$(document).ready(function() {
+  $("#Button").click(function() {
+    $("img").slideDown("slow");
+    $("p").css("color", "blue");
+    $("#a1").hide();
+  });
+});
