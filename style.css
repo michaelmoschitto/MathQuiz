@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+  opacity: =.4
+
+}
+
+img {
+  border: 3px solid blue;
+  padding: 50px;
+  height: 150px;
+  width: 200px;
+  margin: auto;
+  position: relative;
+}
+
+li {
+  list-style-type: lower-latin;
+}
+
+button {
+  background-color: lightblue;
+  border: 1px solid blue;
+  text-emphasis-color: yellow;
+  text-decoration-color: black;
+}
+
+div{
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+p{
+  color: green;
+}

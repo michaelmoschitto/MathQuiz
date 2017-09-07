@@ -1,7 +1,12 @@
 $(document).ready(function() {
   $("#Button").click(function() {
-    $("img").slideDown("slow");
-    $("p").css("color", "blue");
-    $("#a1").hide();
+    $("#img1").animate({
+      left: '+=100px',
+      // opacity: '1.0',
+      left: '+=100px'
+    });
+    $("p").css("color", "pink");
+    // $("#a1").hide();
+
   });
 });
